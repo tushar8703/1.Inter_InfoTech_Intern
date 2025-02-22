@@ -1,0 +1,89 @@
+@media screen and (max-width :1000px) {
+    /* home section */
+    .home {
+        align-items: center;
+        flex-direction: column;
+    }
+/* about section */
+    .aboutUs-Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutUs-Container img {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width :850px) {
+/* header section */
+    .header .menu{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: white;
+        width: 100vw;
+        height: calc(100vh - 7.5rem);
+        flex-direction: column;    
+    }
+
+    .header .menu a {
+        display: block;
+        margin: 2rem;
+        padding: .5rem;
+        font-size: 1.5rem;
+        color: black;
+    }
+    .menu  a:hover {
+        background-color:black;
+        border-radius: 5px;
+        padding: 2.5vmin;
+        color: white;
+    }
+    #menu-btn span {
+        display: block;
+    }
+
+    /* home section */
+    .home-Container {
+        flex-direction: column;
+    }   
+}
+
+@media screen and (max-width :700px) {
+    .hearderName {
+        font-size:2.5rem;
+    } 
+}
+
+@media screen and (max-width :550px) {
+    /* header section */
+    header h2 {
+        font-size: 2rem;
+    }
+    .img {
+        width: 80vw;
+    }
+    .header .menu a {
+        font-size: 4vmin;
+    }
+   /* contact section  in the logo */
+   .contact-data img{
+    width: 8vw;
+    margin: .5rem;
+   }
+    .logoImg {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width :420px) {
+    .hearderName {
+        font-size:2rem;
+    } 
+    .coursedata {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 1rem;
+    }
+}

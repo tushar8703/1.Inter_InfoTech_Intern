@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(253, 238, 238);
+    display: flex;
+    flex-direction: column;
+}
+
+/* header started */
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header h2 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+}
+
+.menu a {
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    color: white;
+}
+
+.menu a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .menu.active {
+    right: 0;
+}
+
+#menu-btn span {
+    color: white;
+    padding: 2px;
+    margin: 5px;
+    font-size: 2rem;
+    display: none;
+}
+
+.hearderName {
+    color: rgb(54, 3, 57);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmin;
+}
+
+.hearderName span {
+    color: rgb(5, 47, 33);
+    margin: 2vmin;
+}
+
+#menu-btn span:hover {
+    color: rgba(255, 82, 82, 0.579);
+}
+
+hr {
+    margin: 3rem 0;
+}
+
+/* home section started */
+.home {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.home-data {
+    margin: 5vmin;
+}
+
+.Title {
+    color: rgb(7, 72, 72);
+    font-size: 2.5rem;
+}
+
+.messageContainer h1 {
+    margin-top: 2rem;
+    margin-bottom: 5vmin;
+    color: blue;
+}
+
+.messageContainer h2 {
+    font-size: 3vmin;
+    margin: 1rem;
+}
+
+.message {
+    font-size: 3vmin;
+    margin: 15px;
+    padding: 10px;
+}
+
+.messageContainer a {
+    font-size: 2.5vmin;
+    padding: 1vmin;
+    margin-left: 3vmin;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(185, 188, 190, 0.984);
+}
+
+.img {
+    width: 500px;
+}
+
+/* cource section start */
+.coursedata {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+
+.box {
+    padding: 1rem;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+.courceName {
+    font-size: 4vmin;
+    margin: 2vmin;
+    padding: 2vmin;
+    color: rgb(50, 4, 93);
+}
+
+.courseInfo {
+    font-size: 2.5vmin;
+}
+
+/* about us started */
+.aboutUs-Container {
+    display: flex;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs-Container img {
+    width: 50vw;
+}
+
+.aboutUs-Container p {
+    font-size: 3vmin;
+    margin: .5rem;
+    padding: 5pxm;
+}
+
+/* contact us section started */
+.contact {
+    padding-top: 3rem;
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vmin;
+}
+
+.contact-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-data img {
+    margin: 1rem;
+}
+
+.contact-data p {
+    font-size: 3vmin;
+}
+
+.dataInfo {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.addres {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.logoImg {
+    margin: 20px;
+}
