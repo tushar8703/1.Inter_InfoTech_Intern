@@ -1,0 +1,70 @@
+@media screen and (max-width :670px) {
+
+    .container {
+        width: auto;
+        height: auto;
+    }
+
+    
+}
+
+
+
+
+
+
+
+/* .GameBody{
+    display: none;
+}
+.WinMgs {
+    font-size: 1.5rem;
+    color: green;
+    display: none;
+    margin-left: 5vmin;
+    margin: 5vmin;
+}
+.GameTable {
+
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vmin;
+    margin: auto;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 3rem;
+    color: #BB0F02;
+    background-color: hsla(298, 40%, 23%, 1);
+    margin: .5vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 1px #C5FCFC;
+    border: none;
+    margin: auto;
+}
+#Resetbtn, .PlayAgain {
+    width: 20vmin;
+    height: 6vmin;
+    font-size: 3vmin;
+    background-color: #282E29;
+    color: white;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    
+} */

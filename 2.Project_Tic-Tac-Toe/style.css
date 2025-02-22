@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 25rem;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding-top: 3vmin;
+}
+
+.GameSelc{
+    height: 50vmin;
+    width: 50vmin;
+    margin: auto;
+}
+
+.GameTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8vmin;
+    font-weight: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5vmin;
+}
+
+#selector {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 4vmin;
+    background-color: rgb(225, 211, 238);
+    width: 25vmin;
+    height: 5vmin;
+    border-radius: 10px;
+    margin:auto;
+    color: black;
+}
+
+#choice {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmin;
+}
+
+.computer,
+.friend {
+    width: 21vmin;
+    height: 5vmin;
+    font-weight: bold;
+    font-size: 2vmin;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmin;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+#x,#o 
+{
+    width: 15vmin;
+    height: 5vmin;
+    font-weight: bold;
+    font-size: 4vmin;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmin;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.active{
+    background-color: black !important;
+    color: white !important;
+}
+
+.play {
+    background-color:green;
+    color:white;
+    width: 18vmin;
+    height: 7vmin;
+    font-size: 5vmin;
+    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20vmin;
+    margin: 5vmin;
+}
+
+ .GameBody{
+    display: none;
+}
+
+.WinMgs {
+    font-size: 1.5rem;
+    color: green;
+    display: none;
+    margin-left: 5vmin;
+    margin: 5vmin;
+}
+
+.GameTable {
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vmin;
+    margin: auto;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    color: #BB0F02;
+    background-color: hsla(298, 40%, 23%, 1);
+    margin: .5vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 1px #C5FCFC;
+    border: none;
+    margin: auto;
+}
+
+#Resetbtn, .PlayAgain {
+    width: 20vmin;
+    height: 6vmin;
+    font-size: 3vmin;
+    background-color: #282E29;
+    color: white;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    
+} 
