@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 210, 210);
+}
+
+.container {
+    background-color: black;
+    width: 35rem;
+    height: 23rem;
+    border-radius: 30px;
+    margin-top: 10%;
+    display: flex;
+    color: white;
+    
+}
+
+table #left {
+
+    width: 20rem;
+    margin 0px;
+    padding: 0px 30px;
+}
+
+.StopwatchName {
+    font-size: 3vh;
+    font-family: Verdana, Tahoma, sans-serif;
+    background: #4247CF;
+    background: #14FFFD;
+    background: linear-gradient(to right, #14FFFD 0%, #F1021B 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.timerName {
+    font-size: 2rem;
+    color: darkgray;
+}
+
+.timerDisplay {
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.stop {
+    background-color: red;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.reset {
+    background-color: rgb(117, 150, 241);
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#startimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: none;  
+}
+
+#start {
+    /* width: 150px; */
+    width: 9rem ;
+    height: 9rem;
+    border-radius: 50%; 
+}
+
+#stopimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    display: none;
+}
