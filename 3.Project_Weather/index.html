@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="import.css"> -->
+    <!-- location icon link -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=location_on" />
+</head>
+
+<body>
+    <!-- main container in the weather web application -->
+    <main class="main-container">
+        <!-- header of the weather web application like- search bar & search button -->
+     <header class="search">
+            <input type="text" placeholder="Search City Name" class="search-input">
+            <button class="search-iocn-btn">
+                <img src="/img/search-iocn.png" alt="" class="search-iocn-img">
+            </button>
+        </header>
+        <!-- end of the header -->
+
+        <!-- container is started -->
+        <div class="container" >
+            <section class="first_Section">
+                <div class="location">
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>
+                    <h2 class="city-name"></h2>
+                </div>
+                <h4 class="current-date">Fri, 24 Jan</h5>
+            </section>
+
+            <section class="secound_Section">
+                <img src="/img/Weather_img/cloudy.png" alt="" class="weatherImg">
+                <div class="weatherInfo">
+                    <h2 class="tempInfo"></h2>
+                    <h2 class="weatherCondition"></h2>
+                </div>
+            </section>
+
+            <section class="third_Section">
+                <div class="condition_Data">
+                    <img src="/img/humidity.png" class="humidity-icon">
+                    <div class="detail">
+                        <h2 class="humidity"></h2>
+                        <h3>Humidity</h3>
+                    </div>
+                </div>
+                <div class="condition_Data">
+                    <img src="/img/wind.png" class="wind-icon">
+                    <div class="detail">
+                        <h2 class="wind"></h2>
+                        <h3>Wind Speed</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- end of the container -->
+
+<!-- front detain beforn the search city name -->
+        <div class="front-details">
+            <img src="/img/front-search-img.png" class="frontImg">
+            <p class="message-box">Find out the Weather condition of the city</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
